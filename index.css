@@ -6,6 +6,7 @@ body{
     min-height: 100vh;
 }
 
+/*-----------------------------Section 1 (Hero) styling --------------------------- */
 .main{
     display: flex;
     flex: auto;
@@ -97,4 +98,52 @@ button{
     color: #E5E7EB;
     min-height: inherit; /*Set same height for parent and child div. But require to set first min-height on the parent element which here is .hero-content */
     
+}
+
+/* -------------------------------section 2 (info-section) styling---------------------- */
+
+.info-section{
+    display: flex;
+    gap: 24px;
+    padding: 80px 160px;
+    position: relative;
+    justify-content: center;
+}
+
+#info-header{
+    position: absolute;
+    top: 15px;
+    color:#1F2937;
+    font-size: 36px;
+    margin-block: 0;
+    margin-inline: 0;
+    font-weight: 800;
+}
+
+.img-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.sub-box{
+    border-radius: 7px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #3882F6;
+    height: 130px; /* height equals width */
+    width: 130px;  /* to have .sub-box to be a square */
+    
+}
+
+.subtext{
+    text-align: center;
+    width: 130px; /* equals to .sub-box width */
+}
+
+/*----------------------section 3 styling------------------------------*/
+
+.section3{
+    background-color: aquamarine;
+   
 }
