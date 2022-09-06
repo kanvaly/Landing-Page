@@ -143,7 +143,20 @@ button{
 
 /*----------------------section 3 styling------------------------------*/
 
-.section3{
-    background-color: aquamarine;
-   
+.quote-section{
+    background-color: rgb(212, 204, 204);
+    padding: 80px 300px;
+    position: relative;
+}
+
+em{
+    font-size: 30px;
+}
+
+span{
+    position: absolute;
+    right: 300px;
+    text-align-last: right;
+    font-weight: bold;
+    font-size: 20px;
 }
