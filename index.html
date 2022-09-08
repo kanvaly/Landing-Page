@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <title>My Landing Page</title>
 </head>
 <body>
@@ -21,10 +22,10 @@
             <div class="hero-content">
                 <div class="hero-left-side">
                     <div id="hero-main-text">This Website is awesome</div>
-                    <p id="hero-secondary-text">This website has some subtext that goes here under the main title.
+                    <p class="secondary-text">This website has some subtext that goes here under the main title.
                         It's a smaller font and the color is lower contrast.
                     </p>
-                    <button>Sign up</button>
+                    <button id="hero-button">Sign up</button>
                 </div>
                 <div class="image-placeholder">This is a placeholder for an image</div>
             </div>
@@ -48,13 +49,21 @@
                 <div class="subtext">this is some subtext under an illistration or image</div>
             </div>
         </div>
-        <div class="section quote-section">
-            <em>This is an inspiring quote, or a testimonal from a customer. Maybe it's just filling up
+        <div class="section3 quote-section">
+            <span id="quote">This is an inspiring quote, or a testimonal from a customer. Maybe it's just filling up
                 space, or maybe people will actually read it. Who knows? All I know is that it looks nice. <br> 
-            </em>
-            <span>-Tho, The Author</span>
+            </span>
+            <span id="author">-Tho, The Author</span>
         </div>
-        <div class="section4"></div>
+        <div class="section4 action-section">
+            <div class="action-subsection">
+                <div id="action-main-text">Call to action! It's time!
+                    <div class="secondary-text">Sign up for product by clicking that button right over there!</div>
+                </div>  
+                 
+                <button id="action-button">Sign up</button>
+            </div>
+        </div>
     </div>
     <div class="footer">
         Copyright The Odin Project 2022

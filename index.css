@@ -1,5 +1,5 @@
 body{
-    
+    font-family: 'Roboto';
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -56,10 +56,11 @@ body{
     color: #F9FAF8;
 }
 
-#hero-secondary-text{
+.secondary-text{
     font-size: 18px;
     color: #E5E7EB;
     line-height: 20px;
+    font-weight: normal;
 }
 
 ul{
@@ -76,15 +77,18 @@ a{
 
 }
 
+#hero-button{
+    border: none;
+}
+
 button{
     font-size: medium;
     background: #3882F6;
     border-radius: 8px;
     color: #E5E7EB;
     font-weight: bold;
-    border: none;
     padding: 5px 15px;
-    
+    height: 40px;
     
 }
 
@@ -145,18 +149,47 @@ button{
 
 .quote-section{
     background-color: rgb(212, 204, 204);
-    padding: 80px 300px;
+    padding: 80px 200px;
     position: relative;
 }
 
-em{
-    font-size: 30px;
+#quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
 }
 
-span{
+#author{
     position: absolute;
     right: 300px;
-    text-align-last: right;
     font-weight: bold;
     font-size: 20px;
+}
+
+/*------------------------------section 4 styling----------------------------------*/
+
+.action-section{
+    padding: 60px 150px;
+}
+
+#action-main-text{
+    font-size: 21px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+#action-button{
+    border-color: white;
+    border-width: 2px;
+    border-style:solid ;
+}
+
+.action-subsection{
+    display: flex;
+    background: #3882F6;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    height: 100px;
+    border-radius: 8px;
 }
